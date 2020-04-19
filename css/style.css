@@ -107,3 +107,24 @@ section.noticias
   font-weight: bold;
   font-size: 26px;
 }
+.cartao-individual
+{
+  width: 50%;
+  float: left;
+}
+
+.cartao-individual h3
+{
+  margin-top: 5px;
+  font-weight: normal;
+  font-size: 19px;
+}
+
+.cartao-individual p
+{
+  margin: 10px 0;
+  font-weight: lighter;
+  font-size: 16px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #aaaaaa;
+}

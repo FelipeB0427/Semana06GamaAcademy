@@ -6,6 +6,17 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.limpa
+{
+  clear: both;
+}
+
+.w50
+{
+  width: 50%;
+  float: left;
+}
+
 .container
 {
   max-width: 1920px;
@@ -81,6 +92,11 @@ section.fundo-p p
 section.noticias
 {
   padding: 30px 0;
+}
+
+section.linha
+{
+  padding: 30px 0;
   text-align: center;
 }
 
@@ -105,17 +121,18 @@ section.noticias
 {
   text-align: center;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 36px;
 }
 .cartao-individual
 {
   width: 50%;
   float: left;
+  padding: 40px;
 }
 
 .cartao-individual h3
 {
-  margin-top: 5px;
+  margin-top: 15px;
   font-weight: normal;
   font-size: 19px;
 }
@@ -124,7 +141,203 @@ section.noticias
 {
   margin: 10px 0;
   font-weight: lighter;
-  font-size: 16px;
+  font-size: 12px;
   padding-bottom: 20px;
   border-bottom: 2px solid #aaaaaa;
+}
+
+.cartao-texto
+{
+  width: 50%;
+  float: left;
+  padding: 20px;
+  font-size: 22px;
+  text-align: justify;
+}
+
+.cartao-texto h3
+{
+  font-size: 32px;
+  color: #137fd8;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.cartao-texto li
+{
+  padding: 5px;
+  margin-left: 30px;
+}
+
+.cartao-audio
+{
+  width: 50%;
+  float: left;
+  padding: 40px;
+}
+
+.cartao-audio img
+{
+  width: 800px;
+}
+
+.cartao-audio h3
+{
+  font-size: 32px;
+  color: #137fd8;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.cartao-audio li
+{
+  padding: 5px;
+  margin-left: 30px;
+}
+
+.linha-cinza
+{
+  margin: 2px 0;
+  font-weight: lighter;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #aaaaaa;
+}
+
+.linha-azul
+{
+  margin: 2px 0;
+  font-weight: lighter;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #35A5FF;
+}
+
+footer.footer1
+{
+  background: #3092BB;
+  padding: 50px 0;
+  color: #FFFFFF;
+}
+
+footer.footer1 h2
+{
+  font-weight: normal;
+  font-size: 23px;
+  text-align: center;
+}
+
+footer.footer1 p
+{
+  margin-top: 8px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+footer.footer1 a
+{
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+footer.footer2
+{
+  padding: 10px 0;
+  background: #1c78a0;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.imagem-circular
+{
+  padding: 40px;
+  display: block;
+  align-items: center;
+}
+
+.imagem-circular img
+{
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.imagem-circular h1
+{
+  text-align: center;
+  font-weight: lighter;
+}
+
+.imagem-circular p
+{
+  margin-top: 25px;
+  margin-left: 450px;
+  width: 50%;
+  display: block;
+  text-align: justify;
+}
+
+.icones
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#linkedin
+{
+  font-size: 48px;
+  text-decoration: none;
+  color: #0E76A8;
+}
+
+#github
+{
+  font-size: 48px;
+  text-decoration: none;
+  color: #333333;
+}
+
+#facebook
+{
+  font-size: 48px;
+  text-decoration: none;
+  color: #3B5998;
+}
+
+#outlook
+{
+  font-size: 48px;
+  text-decoration: none;
+  color: rgb(64, 122, 488);
+}
+
+#whatsapp
+{
+  font-size: 48px;
+  text-decoration: none;
+  color: #25d366;
+}
+
+.saiba-mais
+{
+  margin-top: 150px;
+  padding: 40px;
+}
+
+.saiba-mais h1
+{
+  font-size: 24px;
+  color: #3092BB;
+}
+
+.saiba-mais li
+{
+  margin-left: 20px;
+}
+
+.saiba-mais a
+{
+  text-decoration: none;
 }
